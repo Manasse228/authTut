@@ -1,0 +1,38 @@
+{
+  "name": "unbank",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Unbank Peer-to-peer banking",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "main": "app.js",
+  "author": "System X and XDev",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "jwt",
+    "Blockchain",
+    "Stellar",
+    "Ethereum"
+  ],
+  "repository": {
+    "type": "gitlab",
+    "url": "git+https://github.com/narenaryan/node-jwt-integ.git"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.4",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "nodemon": "^1.18.11"
+  }
+}
